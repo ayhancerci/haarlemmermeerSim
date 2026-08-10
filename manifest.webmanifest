@@ -1,0 +1,16 @@
+{
+  "name": "Haarlemmermeer Noodvoorbereiding",
+  "short_name": "Noodvoorbereiding",
+  "description": "Leer wat je moet doen voor, tijdens en na een noodsituatie in Haarlemmermeer.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1622",
+  "theme_color": "#00697a",
+  "lang": "nl",
+  "categories": ["education", "government"],
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
