@@ -5,7 +5,20 @@
  * work without a network. Precache the shell on install; serve navigations from
  * cache when offline; cache map tiles and audio opportunistically at runtime.
  */
-const VERSION = 'hm-v1'
+
+/**
+ * Replaced at build time with the build's content hash (see the
+ * `service-worker-version` plugin in vite.config.ts). It has to change on every
+ * deploy, because everything below keys its caches on it.
+ *
+ * It did not change for the whole life of the project, and that shipped wrong
+ * safety advice to anyone who had already visited: P-WINDOWS was rewritten to
+ * say *not* to tape windows and its artwork regenerated to match, both landed
+ * on the server — and returning players kept being served the old photograph of
+ * taped glass out of this cache, under the new text. Corrected art that cannot
+ * reach the people who saw the wrong art is not a correction.
+ */
+const VERSION = 'hm-57622f48b77a'
 const SHELL = `${VERSION}-shell`
 const RUNTIME = `${VERSION}-runtime`
 
@@ -24,6 +37,11 @@ self.addEventListener('activate', (event) => {
     ).then(() => self.clients.claim())
   )
 })
+
+/** Hashed build output: the filename changes whenever the bytes do. */
+function isImmutable(url) {
+  return /\/assets\/[^/]+-[A-Za-z0-9_-]{8,}\.[a-z0-9]+$/.test(url.pathname)
+}
 
 self.addEventListener('fetch', (event) => {
   const { request } = event
@@ -50,18 +68,44 @@ self.addEventListener('fetch', (event) => {
 
   if (!isAsset && !isTileOrAudio) return
 
-  // Cache first — hashed assets and tiles are effectively immutable.
+  // Cache first for things whose URL changes when their content does — hashed
+  // build output, map tiles, audio.
+  if (isTileOrAudio || isImmutable(url)) {
+    event.respondWith(
+      caches.match(request).then(
+        (hit) =>
+          hit ||
+          fetch(request).then((res) => {
+            if (res.ok && res.status === 200) {
+              const copy = res.clone()
+              caches.open(RUNTIME).then((c) => c.put(request, copy))
+            }
+            return res
+          })
+      )
+    )
+    return
+  }
+
+  // Everything else same-origin keeps a stable URL across deploys — the
+  // situation artwork above all, which is regenerated in place. Serve the cached
+  // copy for speed, but always refetch behind it so a correction is one reload
+  // away rather than waiting on a version bump reaching this file.
   event.respondWith(
-    caches.match(request).then(
-      (hit) =>
-        hit ||
-        fetch(request).then((res) => {
+    caches.match(request).then((hit) => {
+      const fresh = fetch(request)
+        .then((res) => {
           if (res.ok && res.status === 200) {
             const copy = res.clone()
             caches.open(RUNTIME).then((c) => c.put(request, copy))
           }
           return res
         })
-    )
+        .catch((err) => {
+          if (hit) return hit
+          throw err
+        })
+      return hit || fresh
+    })
   )
 })
