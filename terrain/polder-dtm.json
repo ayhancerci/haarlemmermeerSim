@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "crs": "EPSG:28992",
+  "xmin": 98000,
+  "ymax": 490000,
+  "cell": 20,
+  "cols": 900,
+  "rows": 900,
+  "rowOrder": "north to south",
+  "units": "centimetres NAP, Int16 little-endian",
+  "nodata": -32768,
+  "reduce": "mean",
+  "pixel": 5,
+  "coverage": "dtm_05m",
+  "source": "https://service.pdok.nl/rws/ahn/wcs/v1_0",
+  "fetched": "2026-10-07T11:03:28.310Z",
+  "filledCells": 41782,
+  "checks": [
+    {
+      "name": "Hoofddorp station",
+      "latitude": 52.2919,
+      "longitude": 4.7019,
+      "ahn": -3.660000086,
+      "grid": -4.36,
+      "filled": false
+    },
+    {
+      "name": "Ringvaart dyke crest at Cruquius",
+      "latitude": 52.3373,
+      "longitude": 4.635812,
+      "ahn": -0.2310000062,
+      "grid": -2.86,
+      "filled": false
+    },
+    {
+      "name": "The polder's lowest cell",
+      "latitude": 52.306919,
+      "longitude": 4.757155,
+      "ahn": -3.819400072,
+      "grid": -9.66,
+      "filled": false
+    }
+  ]
+}
