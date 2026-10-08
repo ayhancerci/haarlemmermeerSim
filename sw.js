@@ -18,7 +18,7 @@
  * taped glass out of this cache, under the new text. Corrected art that cannot
  * reach the people who saw the wrong art is not a correction.
  */
-const VERSION = 'hm-1f5d678ce400'
+const VERSION = 'hm-4eff77c9a38d'
 const SHELL = `${VERSION}-shell`
 const RUNTIME = `${VERSION}-runtime`
 

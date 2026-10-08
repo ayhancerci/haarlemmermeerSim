@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "bounds": {
+    "west": 4.562476,
+    "south": 52.233187,
+    "east": 4.815262,
+    "north": 52.385965
+  },
+  "width": 861,
+  "height": 851,
+  "offset": -20,
+  "encoding": "red * 256 + green = centimetres above offset (m NAP); blue 255 = inside the Ringvaart",
+  "seed": {
+    "latitude": 52.3035,
+    "longitude": 4.689
+  },
+  "ringvaartHolds": -0.5,
+  "insideKm2": 166.9,
+  "toppedKm2": 247.3,
+  "from": {
+    "grid": "public/terrain/polder-dtm.bin",
+    "fetched": "2026-10-07T14:44:08.243Z",
+    "cell": 20
+  }
+}

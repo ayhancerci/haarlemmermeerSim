@@ -13,8 +13,9 @@
   "pixel": 5,
   "coverage": "dtm_05m",
   "source": "https://service.pdok.nl/rws/ahn/wcs/v1_0",
-  "fetched": "2026-10-07T11:03:28.310Z",
+  "fetched": "2026-10-07T14:44:08.243Z",
   "filledCells": 41782,
+  "tileExtentError": 0,
   "checks": [
     {
       "name": "Hoofddorp station",
@@ -22,7 +23,14 @@
       "longitude": 4.7019,
       "ahn": -3.660000086,
       "grid": -4.36,
-      "filled": false
+      "filled": false,
+      "wcsAtPoint": null,
+      "patchPixel": 0.5,
+      "patchExtentError": 0,
+      "bestShiftEastM": 0,
+      "bestShiftNorthM": 0,
+      "differenceAtBest": 0.09,
+      "differenceUnshifted": 0.09
     },
     {
       "name": "Ringvaart dyke crest at Cruquius",
@@ -30,7 +38,14 @@
       "longitude": 4.635812,
       "ahn": -0.2310000062,
       "grid": -2.86,
-      "filled": false
+      "filled": false,
+      "wcsAtPoint": null,
+      "patchPixel": 0.5,
+      "patchExtentError": 0,
+      "bestShiftEastM": 0,
+      "bestShiftNorthM": 0,
+      "differenceAtBest": 0.08,
+      "differenceUnshifted": 0.08
     },
     {
       "name": "The polder's lowest cell",
@@ -38,7 +53,14 @@
       "longitude": 4.757155,
       "ahn": -3.819400072,
       "grid": -9.66,
-      "filled": false
+      "filled": false,
+      "wcsAtPoint": null,
+      "patchPixel": 0.5,
+      "patchExtentError": 0,
+      "bestShiftEastM": 0,
+      "bestShiftNorthM": 0,
+      "differenceAtBest": 0.12,
+      "differenceUnshifted": 0.12
     }
   ]
 }
