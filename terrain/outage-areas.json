@@ -1,0 +1,1177 @@
+{
+  "version": 1,
+  "bounds": {
+    "west": 4.550455,
+    "south": 52.214468,
+    "east": 4.819159,
+    "north": 52.433336
+  },
+  "width": 915,
+  "height": 1211,
+  "encoding": "red * 256 + green = the buurt's place in the order, 0 to 65535 (0 the first back); blue 255 = a buurt of Haarlemmermeer",
+  "source": "CBS Wijken en Buurten 2023 (buurten of GM0394), PDOK OGC API, CC BY 4.0",
+  "url": "https://api.pdok.nl/cbs/wijken-en-buurten-2023/ogc/v1/collections/buurten/items?f=json&gemeentecode=GM0394&limit=1000",
+  "fetched": "2026-10-09T10:45:54.916Z",
+  "order": "Ours, not Liander's grid: wijken by the distance of their residents' centre from the blackout's Vijfhuizen substation (poi-substation-vijfhuizen), buurten spread within a fifth of the range by their code.",
+  "origin": {
+    "name": "Liander Onderstation Vijfhuizen",
+    "latitude": 52.3425,
+    "longitude": 4.632
+  },
+  "residents": 162300,
+  "households": 68880,
+  "buurten": [
+    {
+      "code": "BU03941571",
+      "name": "Vijfhuizen Nieuwebrug",
+      "wijk": "WK039415",
+      "residents": 535,
+      "households": 290,
+      "centroid": {
+        "longitude": 4.68751,
+        "latitude": 52.37577
+      },
+      "rank": 0
+    },
+    {
+      "code": "BU03941570",
+      "name": "Vijfhuizen Omgeving",
+      "wijk": "WK039415",
+      "residents": 575,
+      "households": 215,
+      "centroid": {
+        "longitude": 4.69179,
+        "latitude": 52.3567
+      },
+      "rank": 0.0105
+    },
+    {
+      "code": "BU03941567",
+      "name": "Vijfhuizen",
+      "wijk": "WK039415",
+      "residents": 1995,
+      "households": 875,
+      "centroid": {
+        "longitude": 4.67869,
+        "latitude": 52.35091
+      },
+      "rank": 0.0211
+    },
+    {
+      "code": "BU03941569",
+      "name": "Vijfhuizen Stellinghof",
+      "wijk": "WK039415",
+      "residents": 1755,
+      "households": 720,
+      "centroid": {
+        "longitude": 4.67501,
+        "latitude": 52.34617
+      },
+      "rank": 0.0316
+    },
+    {
+      "code": "BU03941399",
+      "name": "Cruquius Cruquiushoeve",
+      "wijk": "WK039413",
+      "residents": 870,
+      "households": 220,
+      "centroid": {
+        "longitude": 4.64677,
+        "latitude": 52.33496
+      },
+      "rank": 0.0421
+    },
+    {
+      "code": "BU03941398",
+      "name": "Cruquius Omgeving",
+      "wijk": "WK039413",
+      "residents": 85,
+      "households": 35,
+      "centroid": {
+        "longitude": 4.65849,
+        "latitude": 52.33456
+      },
+      "rank": 0.0526
+    },
+    {
+      "code": "BU03941397",
+      "name": "Cruquius",
+      "wijk": "WK039413",
+      "residents": 805,
+      "households": 370,
+      "centroid": {
+        "longitude": 4.63655,
+        "latitude": 52.33336
+      },
+      "rank": 0.0632
+    },
+    {
+      "code": "BU03941294",
+      "name": "Zwaanshoek",
+      "wijk": "WK039412",
+      "residents": 1685,
+      "households": 685,
+      "centroid": {
+        "longitude": 4.6161,
+        "latitude": 52.31411
+      },
+      "rank": 0.0737
+    },
+    {
+      "code": "BU03941295",
+      "name": "Zwaanshoek Omgeving",
+      "wijk": "WK039412",
+      "residents": 480,
+      "households": 180,
+      "centroid": {
+        "longitude": 4.62344,
+        "latitude": 52.31558
+      },
+      "rank": 0.0842
+    },
+    {
+      "code": "BU03940118",
+      "name": "Hoofddorp Toolenburg Zuid",
+      "wijk": "WK039401",
+      "residents": 4195,
+      "households": 1525,
+      "centroid": {
+        "longitude": 4.65507,
+        "latitude": 52.29297
+      },
+      "rank": 0.0947
+    },
+    {
+      "code": "BU03940119",
+      "name": "Hoofddorp De Landman",
+      "wijk": "WK039401",
+      "residents": 185,
+      "households": 50,
+      "centroid": {
+        "longitude": 4.69392,
+        "latitude": 52.27871
+      },
+      "rank": 0.1053
+    },
+    {
+      "code": "BU03940109",
+      "name": "Hoofddorp Bornholm Oost",
+      "wijk": "WK039401",
+      "residents": 3725,
+      "households": 1575,
+      "centroid": {
+        "longitude": 4.67428,
+        "latitude": 52.31027
+      },
+      "rank": 0.1158
+    },
+    {
+      "code": "BU03940112",
+      "name": "Hoofddorp Overbos Zuid",
+      "wijk": "WK039401",
+      "residents": 5340,
+      "households": 2295,
+      "centroid": {
+        "longitude": 4.652,
+        "latitude": 52.31254
+      },
+      "rank": 0.1263
+    },
+    {
+      "code": "BU03940108",
+      "name": "Hoofddorp Bornholm West",
+      "wijk": "WK039401",
+      "residents": 4080,
+      "households": 1895,
+      "centroid": {
+        "longitude": 4.66697,
+        "latitude": 52.31191
+      },
+      "rank": 0.1368
+    },
+    {
+      "code": "BU03940113",
+      "name": "Hoofddorp Toolenburg West",
+      "wijk": "WK039401",
+      "residents": 6610,
+      "households": 2820,
+      "centroid": {
+        "longitude": 4.65882,
+        "latitude": 52.3026
+      },
+      "rank": 0.1474
+    },
+    {
+      "code": "BU03940111",
+      "name": "Hoofddorp Overbos Noord",
+      "wijk": "WK039401",
+      "residents": 4770,
+      "households": 2125,
+      "centroid": {
+        "longitude": 4.66114,
+        "latitude": 52.31799
+      },
+      "rank": 0.1579
+    },
+    {
+      "code": "BU03940105",
+      "name": "Hoofddorp Noord",
+      "wijk": "WK039401",
+      "residents": 3450,
+      "households": 1580,
+      "centroid": {
+        "longitude": 4.69107,
+        "latitude": 52.3124
+      },
+      "rank": 0.1684
+    },
+    {
+      "code": "BU03940116",
+      "name": "Hoofddorp Floriande West",
+      "wijk": "WK039401",
+      "residents": 10215,
+      "households": 3915,
+      "centroid": {
+        "longitude": 4.64061,
+        "latitude": 52.3146
+      },
+      "rank": 0.1789
+    },
+    {
+      "code": "BU03940104",
+      "name": "Hoofddorp Oost",
+      "wijk": "WK039401",
+      "residents": 5435,
+      "households": 2430,
+      "centroid": {
+        "longitude": 4.70454,
+        "latitude": 52.30492
+      },
+      "rank": 0.1895
+    },
+    {
+      "code": "BU03940117",
+      "name": "Hoofddorp Floriande Oost",
+      "wijk": "WK039401",
+      "residents": 8135,
+      "households": 3070,
+      "centroid": {
+        "longitude": 4.64136,
+        "latitude": 52.30415
+      },
+      "rank": 0.2
+    },
+    {
+      "code": "BU03940107",
+      "name": "Hoofddorp Pax Oost",
+      "wijk": "WK039401",
+      "residents": 2475,
+      "households": 1120,
+      "centroid": {
+        "longitude": 4.68077,
+        "latitude": 52.30257
+      },
+      "rank": 0.2105
+    },
+    {
+      "code": "BU03940114",
+      "name": "Hoofddorp Toolenburg Oost",
+      "wijk": "WK039401",
+      "residents": 8110,
+      "households": 3435,
+      "centroid": {
+        "longitude": 4.66941,
+        "latitude": 52.29671
+      },
+      "rank": 0.2211
+    },
+    {
+      "code": "BU03940106",
+      "name": "Hoofddorp Pax West",
+      "wijk": "WK039401",
+      "residents": 2670,
+      "households": 1065,
+      "centroid": {
+        "longitude": 4.67635,
+        "latitude": 52.30544
+      },
+      "rank": 0.2316
+    },
+    {
+      "code": "BU03940115",
+      "name": "Hoofddorp Vrijschot Noord",
+      "wijk": "WK039401",
+      "residents": 445,
+      "households": 170,
+      "centroid": {
+        "longitude": 4.67639,
+        "latitude": 52.31874
+      },
+      "rank": 0.2421
+    },
+    {
+      "code": "BU03940101",
+      "name": "Hoofddorp West",
+      "wijk": "WK039401",
+      "residents": 1195,
+      "households": 540,
+      "centroid": {
+        "longitude": 4.68674,
+        "latitude": 52.30546
+      },
+      "rank": 0.2526
+    },
+    {
+      "code": "BU03940103",
+      "name": "Hoofddorp Graan voor Visch",
+      "wijk": "WK039401",
+      "residents": 3395,
+      "households": 1430,
+      "centroid": {
+        "longitude": 4.68865,
+        "latitude": 52.29598
+      },
+      "rank": 0.2632
+    },
+    {
+      "code": "BU03940102",
+      "name": "Hoofddorp Zuid",
+      "wijk": "WK039401",
+      "residents": 3555,
+      "households": 2040,
+      "centroid": {
+        "longitude": 4.6968,
+        "latitude": 52.29906
+      },
+      "rank": 0.2737
+    },
+    {
+      "code": "BU03942128",
+      "name": "Haarlemmerliede Omgeving",
+      "wijk": "WK039421",
+      "residents": 25,
+      "households": 10,
+      "centroid": {
+        "longitude": 4.69442,
+        "latitude": 52.38811
+      },
+      "rank": 0.2842
+    },
+    {
+      "code": "BU03942121",
+      "name": "Penningsveer",
+      "wijk": "WK039421",
+      "residents": 60,
+      "households": 30,
+      "centroid": {
+        "longitude": 4.67707,
+        "latitude": 52.39165
+      },
+      "rank": 0.2947
+    },
+    {
+      "code": "BU03942120",
+      "name": "Haarlemmerliede",
+      "wijk": "WK039421",
+      "residents": 240,
+      "households": 105,
+      "centroid": {
+        "longitude": 4.687,
+        "latitude": 52.38752
+      },
+      "rank": 0.3053
+    },
+    {
+      "code": "BU03940127",
+      "name": "Hoofddorp Buiten",
+      "wijk": "WK039401",
+      "residents": 0,
+      "households": 0,
+      "centroid": {
+        "longitude": 4.62635,
+        "latitude": 52.30005
+      },
+      "rank": 0.3158
+    },
+    {
+      "code": "BU03940126",
+      "name": "Hoofddorp De President",
+      "wijk": "WK039401",
+      "residents": 410,
+      "households": 235,
+      "centroid": {
+        "longitude": 4.67356,
+        "latitude": 52.28633
+      },
+      "rank": 0.3263
+    },
+    {
+      "code": "BU03940125",
+      "name": "Hoofddorp Beukenhorst Oost",
+      "wijk": "WK039401",
+      "residents": 190,
+      "households": 85,
+      "centroid": {
+        "longitude": 4.71124,
+        "latitude": 52.28898
+      },
+      "rank": 0.3368
+    },
+    {
+      "code": "BU03940124",
+      "name": "Hoofddorp Graan voor Visch Zuid",
+      "wijk": "WK039401",
+      "residents": 665,
+      "households": 585,
+      "centroid": {
+        "longitude": 4.68368,
+        "latitude": 52.29214
+      },
+      "rank": 0.3474
+    },
+    {
+      "code": "BU03940123",
+      "name": "Hoofddorp De Hoek",
+      "wijk": "WK039401",
+      "residents": 120,
+      "households": 80,
+      "centroid": {
+        "longitude": 4.7243,
+        "latitude": 52.29385
+      },
+      "rank": 0.3579
+    },
+    {
+      "code": "BU03940122",
+      "name": "Hoofddorp Omgeving",
+      "wijk": "WK039401",
+      "residents": 295,
+      "households": 130,
+      "centroid": {
+        "longitude": 4.70113,
+        "latitude": 52.32089
+      },
+      "rank": 0.3684
+    },
+    {
+      "code": "BU03941193",
+      "name": "Beinsdorp",
+      "wijk": "WK039411",
+      "residents": 925,
+      "households": 390,
+      "centroid": {
+        "longitude": 4.59497,
+        "latitude": 52.28583
+      },
+      "rank": 0.3789
+    },
+    {
+      "code": "BU03941192",
+      "name": "Beinsdorp Omgeving",
+      "wijk": "WK039411",
+      "residents": 95,
+      "households": 40,
+      "centroid": {
+        "longitude": 4.60031,
+        "latitude": 52.28809
+      },
+      "rank": 0.3895
+    },
+    {
+      "code": "BU03940429",
+      "name": "Lijnden Omgeving",
+      "wijk": "WK039404",
+      "residents": 215,
+      "households": 135,
+      "centroid": {
+        "longitude": 4.74237,
+        "latitude": 52.34348
+      },
+      "rank": 0.4
+    },
+    {
+      "code": "BU03940343",
+      "name": "Zwanenburg West",
+      "wijk": "WK039403",
+      "residents": 2125,
+      "households": 890,
+      "centroid": {
+        "longitude": 4.73082,
+        "latitude": 52.38159
+      },
+      "rank": 0.4105
+    },
+    {
+      "code": "BU03942096",
+      "name": "Spaarnwoude",
+      "wijk": "WK039420",
+      "residents": 95,
+      "households": 45,
+      "centroid": {
+        "longitude": 4.69382,
+        "latitude": 52.401
+      },
+      "rank": 0.4211
+    },
+    {
+      "code": "BU03940347",
+      "name": "Zwanenburg Noordoost",
+      "wijk": "WK039403",
+      "residents": 1070,
+      "households": 485,
+      "centroid": {
+        "longitude": 4.75105,
+        "latitude": 52.37804
+      },
+      "rank": 0.4316
+    },
+    {
+      "code": "BU03940346",
+      "name": "Zwanenburg Oost",
+      "wijk": "WK039403",
+      "residents": 1230,
+      "households": 555,
+      "centroid": {
+        "longitude": 4.75324,
+        "latitude": 52.37304
+      },
+      "rank": 0.4421
+    },
+    {
+      "code": "BU03940345",
+      "name": "Zwanenburg Zuidoost",
+      "wijk": "WK039403",
+      "residents": 895,
+      "households": 375,
+      "centroid": {
+        "longitude": 4.74736,
+        "latitude": 52.37513
+      },
+      "rank": 0.4526
+    },
+    {
+      "code": "BU03940344",
+      "name": "Zwanenburg Zuidwest",
+      "wijk": "WK039403",
+      "residents": 1040,
+      "households": 485,
+      "centroid": {
+        "longitude": 4.74205,
+        "latitude": 52.3783
+      },
+      "rank": 0.4632
+    },
+    {
+      "code": "BU03940349",
+      "name": "Zwanenburg Dijk",
+      "wijk": "WK039403",
+      "residents": 420,
+      "households": 215,
+      "centroid": {
+        "longitude": 4.74215,
+        "latitude": 52.38124
+      },
+      "rank": 0.4737
+    },
+    {
+      "code": "BU03942273",
+      "name": "Halfweg Omgeving",
+      "wijk": "WK039422",
+      "residents": 75,
+      "households": 35,
+      "centroid": {
+        "longitude": 4.72744,
+        "latitude": 52.39519
+      },
+      "rank": 0.4842
+    },
+    {
+      "code": "BU03940348",
+      "name": "Zwanenburg Noordwest",
+      "wijk": "WK039403",
+      "residents": 1180,
+      "households": 505,
+      "centroid": {
+        "longitude": 4.74616,
+        "latitude": 52.38074
+      },
+      "rank": 0.4947
+    },
+    {
+      "code": "BU03942272",
+      "name": "Halfweg",
+      "wijk": "WK039422",
+      "residents": 2530,
+      "households": 1175,
+      "centroid": {
+        "longitude": 4.75286,
+        "latitude": 52.38458
+      },
+      "rank": 0.5053
+    },
+    {
+      "code": "BU03942042",
+      "name": "Spaarndam Omgeving",
+      "wijk": "WK039420",
+      "residents": 185,
+      "households": 70,
+      "centroid": {
+        "longitude": 4.70589,
+        "latitude": 52.41255
+      },
+      "rank": 0.5158
+    },
+    {
+      "code": "BU03940466",
+      "name": "Boesingheliede",
+      "wijk": "WK039404",
+      "residents": 150,
+      "households": 95,
+      "centroid": {
+        "longitude": 4.72391,
+        "latitude": 52.35284
+      },
+      "rank": 0.5263
+    },
+    {
+      "code": "BU03940465",
+      "name": "Lijnden",
+      "wijk": "WK039404",
+      "residents": 740,
+      "households": 330,
+      "centroid": {
+        "longitude": 4.75658,
+        "latitude": 52.35379
+      },
+      "rank": 0.5368
+    },
+    {
+      "code": "BU03940233",
+      "name": "Nieuw-Vennep West",
+      "wijk": "WK039402",
+      "residents": 2870,
+      "households": 1290,
+      "centroid": {
+        "longitude": 4.62553,
+        "latitude": 52.26572
+      },
+      "rank": 0.5474
+    },
+    {
+      "code": "BU03940232",
+      "name": "Nieuw-Vennep Welgelegen Noord",
+      "wijk": "WK039402",
+      "residents": 2580,
+      "households": 1100,
+      "centroid": {
+        "longitude": 4.63655,
+        "latitude": 52.2735
+      },
+      "rank": 0.5579
+    },
+    {
+      "code": "BU03940240",
+      "name": "Nieuw-Vennep Omgeving",
+      "wijk": "WK039402",
+      "residents": 705,
+      "households": 260,
+      "centroid": {
+        "longitude": 4.63563,
+        "latitude": 52.26383
+      },
+      "rank": 0.5684
+    },
+    {
+      "code": "BU03940231",
+      "name": "Nieuw-Vennep Welgelegen",
+      "wijk": "WK039402",
+      "residents": 1835,
+      "households": 860,
+      "centroid": {
+        "longitude": 4.63094,
+        "latitude": 52.26938
+      },
+      "rank": 0.5789
+    },
+    {
+      "code": "BU03940241",
+      "name": "Nieuw-Vennep 't Kabel",
+      "wijk": "WK039402",
+      "residents": 130,
+      "households": 50,
+      "centroid": {
+        "longitude": 4.6491,
+        "latitude": 52.25415
+      },
+      "rank": 0.5895
+    },
+    {
+      "code": "BU03940230",
+      "name": "Nieuw-Vennep Oost",
+      "wijk": "WK039402",
+      "residents": 905,
+      "households": 390,
+      "centroid": {
+        "longitude": 4.64562,
+        "latitude": 52.26567
+      },
+      "rank": 0.6
+    },
+    {
+      "code": "BU03940237",
+      "name": "Nieuw-Vennep Getsewoud Zuid",
+      "wijk": "WK039402",
+      "residents": 8870,
+      "households": 3265,
+      "centroid": {
+        "longitude": 4.6113,
+        "latitude": 52.26967
+      },
+      "rank": 0.6105
+    },
+    {
+      "code": "BU03940236",
+      "name": "Nieuw-Vennep Getsewoud Noord",
+      "wijk": "WK039402",
+      "residents": 7740,
+      "households": 2705,
+      "centroid": {
+        "longitude": 4.62294,
+        "latitude": 52.27783
+      },
+      "rank": 0.6211
+    },
+    {
+      "code": "BU03940235",
+      "name": "Nieuw-Vennep Linquenda",
+      "wijk": "WK039402",
+      "residents": 3870,
+      "households": 1655,
+      "centroid": {
+        "longitude": 4.61968,
+        "latitude": 52.26158
+      },
+      "rank": 0.6316
+    },
+    {
+      "code": "BU03940234",
+      "name": "Nieuw-Vennep Zuid",
+      "wijk": "WK039402",
+      "residents": 2080,
+      "households": 975,
+      "centroid": {
+        "longitude": 4.63625,
+        "latitude": 52.25928
+      },
+      "rank": 0.6421
+    },
+    {
+      "code": "BU03940239",
+      "name": "Nieuw-Vennep Wilhelminahoeve",
+      "wijk": "WK039402",
+      "residents": 20,
+      "households": 10,
+      "centroid": {
+        "longitude": 4.62817,
+        "latitude": 52.25449
+      },
+      "rank": 0.6526
+    },
+    {
+      "code": "BU03940350",
+      "name": "Zwanenburg Omgeving",
+      "wijk": "WK039403",
+      "residents": 70,
+      "households": 25,
+      "centroid": {
+        "longitude": 4.72996,
+        "latitude": 52.37178
+      },
+      "rank": 0.6632
+    },
+    {
+      "code": "BU03942038",
+      "name": "Spaarndam",
+      "wijk": "WK039420",
+      "residents": 3265,
+      "households": 1290,
+      "centroid": {
+        "longitude": 4.68651,
+        "latitude": 52.41291
+      },
+      "rank": 0.6737
+    },
+    {
+      "code": "BU03940782",
+      "name": "Rijsenhout Omgeving",
+      "wijk": "WK039407",
+      "residents": 825,
+      "households": 380,
+      "centroid": {
+        "longitude": 4.70106,
+        "latitude": 52.25959
+      },
+      "rank": 0.6842
+    },
+    {
+      "code": "BU03940781",
+      "name": "Rijsenhout Dijk",
+      "wijk": "WK039407",
+      "residents": 585,
+      "households": 250,
+      "centroid": {
+        "longitude": 4.71279,
+        "latitude": 52.25461
+      },
+      "rank": 0.6947
+    },
+    {
+      "code": "BU03940780",
+      "name": "Rijsenhout Zuid",
+      "wijk": "WK039407",
+      "residents": 1305,
+      "households": 535,
+      "centroid": {
+        "longitude": 4.70707,
+        "latitude": 52.25947
+      },
+      "rank": 0.7053
+    },
+    {
+      "code": "BU03940779",
+      "name": "Rijsenhout Dorp",
+      "wijk": "WK039407",
+      "residents": 1610,
+      "households": 740,
+      "centroid": {
+        "longitude": 4.71494,
+        "latitude": 52.26088
+      },
+      "rank": 0.7158
+    },
+    {
+      "code": "BU03941663",
+      "name": "Schiphol",
+      "wijk": "WK039416",
+      "residents": 90,
+      "households": 65,
+      "centroid": {
+        "longitude": 4.76071,
+        "latitude": 52.31123
+      },
+      "rank": 0.7263
+    },
+    {
+      "code": "BU03940677",
+      "name": "Rozenburg Noord",
+      "wijk": "WK039406",
+      "residents": 30,
+      "households": 25,
+      "centroid": {
+        "longitude": 4.73794,
+        "latitude": 52.28375
+      },
+      "rank": 0.7368
+    },
+    {
+      "code": "BU03940676",
+      "name": "Aalsmeerderbrug",
+      "wijk": "WK039406",
+      "residents": 505,
+      "households": 240,
+      "centroid": {
+        "longitude": 4.74824,
+        "latitude": 52.27303
+      },
+      "rank": 0.7474
+    },
+    {
+      "code": "BU03940675",
+      "name": "Oude Meer",
+      "wijk": "WK039406",
+      "residents": 165,
+      "households": 80,
+      "centroid": {
+        "longitude": 4.78346,
+        "latitude": 52.28966
+      },
+      "rank": 0.7579
+    },
+    {
+      "code": "BU03940674",
+      "name": "Schiphol-Rijk",
+      "wijk": "WK039406",
+      "residents": 140,
+      "households": 75,
+      "centroid": {
+        "longitude": 4.7604,
+        "latitude": 52.28191
+      },
+      "rank": 0.7684
+    },
+    {
+      "code": "BU03940678",
+      "name": "Rozenburg Omgeving",
+      "wijk": "WK039406",
+      "residents": 35,
+      "households": 25,
+      "centroid": {
+        "longitude": 4.73116,
+        "latitude": 52.27817
+      },
+      "rank": 0.7789
+    },
+    {
+      "code": "BU03940552",
+      "name": "Badhoevedorp Noordwest",
+      "wijk": "WK039405",
+      "residents": 2935,
+      "households": 1475,
+      "centroid": {
+        "longitude": 4.7783,
+        "latitude": 52.3441
+      },
+      "rank": 0.7895
+    },
+    {
+      "code": "BU03940553",
+      "name": "Badhoevedorp West",
+      "wijk": "WK039405",
+      "residents": 1180,
+      "households": 590,
+      "centroid": {
+        "longitude": 4.77765,
+        "latitude": 52.34027
+      },
+      "rank": 0.8
+    },
+    {
+      "code": "BU03940551",
+      "name": "Badhoevedorp Omgeving",
+      "wijk": "WK039405",
+      "residents": 110,
+      "households": 50,
+      "centroid": {
+        "longitude": 4.76251,
+        "latitude": 52.32867
+      },
+      "rank": 0.8105
+    },
+    {
+      "code": "BU03940556",
+      "name": "Badhoevedorp Zuid",
+      "wijk": "WK039405",
+      "residents": 950,
+      "households": 400,
+      "centroid": {
+        "longitude": 4.77848,
+        "latitude": 52.33479
+      },
+      "rank": 0.8211
+    },
+    {
+      "code": "BU03940557",
+      "name": "Badhoevedorp Centrum",
+      "wijk": "WK039405",
+      "residents": 1495,
+      "households": 585,
+      "centroid": {
+        "longitude": 4.78506,
+        "latitude": 52.33926
+      },
+      "rank": 0.8316
+    },
+    {
+      "code": "BU03940554",
+      "name": "Badhoevedorp Bouwlust",
+      "wijk": "WK039405",
+      "residents": 2775,
+      "households": 970,
+      "centroid": {
+        "longitude": 4.76978,
+        "latitude": 52.34096
+      },
+      "rank": 0.8421
+    },
+    {
+      "code": "BU03940558",
+      "name": "Badhoevedorp Noordoost",
+      "wijk": "WK039405",
+      "residents": 1260,
+      "households": 585,
+      "centroid": {
+        "longitude": 4.79293,
+        "latitude": 52.33643
+      },
+      "rank": 0.8526
+    },
+    {
+      "code": "BU03940559",
+      "name": "Badhoevedorp Antoniushoeve",
+      "wijk": "WK039405",
+      "residents": 1265,
+      "households": 585,
+      "centroid": {
+        "longitude": 4.79399,
+        "latitude": 52.33243
+      },
+      "rank": 0.8632
+    },
+    {
+      "code": "BU03940564",
+      "name": "Badhoevedorp Nieuwe Meer",
+      "wijk": "WK039405",
+      "residents": 445,
+      "households": 200,
+      "centroid": {
+        "longitude": 4.80939,
+        "latitude": 52.32445
+      },
+      "rank": 0.8737
+    },
+    {
+      "code": "BU03940562",
+      "name": "Badhoevedorp Dijk",
+      "wijk": "WK039405",
+      "residents": 520,
+      "households": 215,
+      "centroid": {
+        "longitude": 4.78499,
+        "latitude": 52.34315
+      },
+      "rank": 0.8842
+    },
+    {
+      "code": "BU03941090",
+      "name": "Lisserbroek",
+      "wijk": "WK039410",
+      "residents": 3230,
+      "households": 1310,
+      "centroid": {
+        "longitude": 4.57466,
+        "latitude": 52.25226
+      },
+      "rank": 0.8947
+    },
+    {
+      "code": "BU03940561",
+      "name": "Badhoevedorp Schuilhoeve",
+      "wijk": "WK039405",
+      "residents": 490,
+      "households": 365,
+      "centroid": {
+        "longitude": 4.79021,
+        "latitude": 52.32818
+      },
+      "rank": 0.9053
+    },
+    {
+      "code": "BU03941091",
+      "name": "Lisserbroek Omgeving",
+      "wijk": "WK039410",
+      "residents": 170,
+      "households": 60,
+      "centroid": {
+        "longitude": 4.57889,
+        "latitude": 52.25415
+      },
+      "rank": 0.9158
+    },
+    {
+      "code": "BU03940560",
+      "name": "Badhoevedorp Oost",
+      "wijk": "WK039405",
+      "residents": 1025,
+      "households": 395,
+      "centroid": {
+        "longitude": 4.78474,
+        "latitude": 52.33438
+      },
+      "rank": 0.9263
+    },
+    {
+      "code": "BU03940884",
+      "name": "Leimuiderbrug",
+      "wijk": "WK039408",
+      "residents": 55,
+      "households": 25,
+      "centroid": {
+        "longitude": 4.66403,
+        "latitude": 52.23527
+      },
+      "rank": 0.9368
+    },
+    {
+      "code": "BU03940885",
+      "name": "Weteringbrug",
+      "wijk": "WK039408",
+      "residents": 385,
+      "households": 165,
+      "centroid": {
+        "longitude": 4.64372,
+        "latitude": 52.22548
+      },
+      "rank": 0.9474
+    },
+    {
+      "code": "BU03940883",
+      "name": "Burgerveen",
+      "wijk": "WK039408",
+      "residents": 330,
+      "households": 150,
+      "centroid": {
+        "longitude": 4.677,
+        "latitude": 52.24161
+      },
+      "rank": 0.9579
+    },
+    {
+      "code": "BU03940989",
+      "name": "Abbenes Dijk",
+      "wijk": "WK039409",
+      "residents": 100,
+      "households": 40,
+      "centroid": {
+        "longitude": 4.59943,
+        "latitude": 52.21686
+      },
+      "rank": 0.9684
+    },
+    {
+      "code": "BU03940988",
+      "name": "Buitenkaag",
+      "wijk": "WK039409",
+      "residents": 485,
+      "households": 220,
+      "centroid": {
+        "longitude": 4.55967,
+        "latitude": 52.22362
+      },
+      "rank": 0.9789
+    },
+    {
+      "code": "BU03940987",
+      "name": "Abbenes Omgeving",
+      "wijk": "WK039409",
+      "residents": 170,
+      "households": 60,
+      "centroid": {
+        "longitude": 4.59691,
+        "latitude": 52.22968
+      },
+      "rank": 0.9895
+    },
+    {
+      "code": "BU03940986",
+      "name": "Abbenes",
+      "wijk": "WK039409",
+      "residents": 950,
+      "households": 390,
+      "centroid": {
+        "longitude": 4.58958,
+        "latitude": 52.23509
+      },
+      "rank": 1
+    }
+  ]
+}
