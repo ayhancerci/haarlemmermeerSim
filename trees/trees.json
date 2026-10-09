@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "source": "BGT, vegetatieobject_punt with plus-type boom, still registered (no eind_registratie), via PDOK",
+  "url": "https://api.pdok.nl/kadaster/bgt/ogc/v1/collections/vegetatieobject_punt/items",
+  "licence": "CC0 1.0: the BGT is open data in the public domain. Credited on the map as \"Bomen: BGT via PDOK\".",
+  "fetched": "2026-10-09T02:18:31.000Z",
+  "pages": 291,
+  "bbox": "4.54978,52.23312,4.81629,52.39646",
+  "inside": "public/terrain/polder-dtm.json: the AHN grid's square",
+  "ground": "polderTerrain.ts groundAtRd: the ground the 2D map draws, m NAP at the ellipsoid's 0",
+  "trees": 197124,
+  "pointTypes": {
+    "boom": 290613,
+    "(none)": 67
+  },
+  "owners": {
+    "G0394": 102778,
+    "G0392": 52194,
+    "G0363": 16900,
+    "G0534": 9108,
+    "G0553": 8381,
+    "G0451": 5325,
+    "G0473": 2129,
+    "P0028": 187,
+    "L0002": 121,
+    "W0616": 1
+  },
+  "falls": [
+    {
+      "kmh": 90,
+      "share": 0.005,
+      "trees": 983
+    },
+    {
+      "kmh": 105,
+      "share": 0.015,
+      "trees": 1951
+    },
+    {
+      "kmh": 120,
+      "share": 0.03,
+      "trees": 2879
+    }
+  ],
+  "tile": "1000 m squares, loaded with the camera within 1200 m and below 900 m",
+  "shapes": {
+    "standing": {
+      "vertices": 96
+    },
+    "fallen": {
+      "vertices": 252
+    }
+  },
+  "sets": {
+    "still": {
+      "trees": 191311,
+      "squares": 243
+    },
+    "up1": {
+      "trees": 983,
+      "squares": 1
+    },
+    "down1": {
+      "trees": 983,
+      "squares": 1
+    },
+    "up2": {
+      "trees": 1951,
+      "squares": 1
+    },
+    "down2": {
+      "trees": 1951,
+      "squares": 1
+    },
+    "up3": {
+      "trees": 2879,
+      "squares": 1
+    },
+    "down3": {
+      "trees": 2879,
+      "squares": 1
+    }
+  }
+}
