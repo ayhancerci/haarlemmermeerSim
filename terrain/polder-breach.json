@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "bounds": {
+    "west": 4.562476,
+    "south": 52.233187,
+    "east": 4.815262,
+    "north": 52.385965
+  },
+  "width": 861,
+  "height": 851,
+  "encoding": "red * 256 + green = minutes after the breach the water arrives; blue 255 = it arrives",
+  "breach": {
+    "latitude": 52.3545,
+    "longitude": 4.679,
+    "level": -4.5,
+    "start": {
+      "longitude": 4.678887,
+      "latitude": 52.354458
+    }
+  },
+  "speed": "utils/breach.ts frontSpeed: 0.35 m/s plus 0.2 per metre below the breach level, between 0.08 and 0.8; none above the peak",
+  "peak": -2,
+  "reachedShare": 0.9828,
+  "latestHours": 11.28,
+  "checks": [
+    {
+      "name": "Vijfhuizen",
+      "latitude": 52.3517,
+      "longitude": 4.6803,
+      "minutes": 40,
+      "ground": -3.76
+    },
+    {
+      "name": "Hoofddorp, Raadhuisplein (the default home)",
+      "latitude": 52.3035,
+      "longitude": 4.689,
+      "minutes": 300,
+      "ground": -3.85
+    },
+    {
+      "name": "Hoofddorp station",
+      "latitude": 52.2919,
+      "longitude": 4.7019,
+      "minutes": 371,
+      "ground": -4.52
+    },
+    {
+      "name": "Badhoevedorp",
+      "latitude": 52.3375,
+      "longitude": 4.779,
+      "minutes": 342,
+      "ground": -3.89
+    },
+    {
+      "name": "Nieuw-Vennep",
+      "latitude": 52.2645,
+      "longitude": 4.634,
+      "minutes": 495,
+      "ground": -4.23
+    },
+    {
+      "name": "Zwanenburg",
+      "latitude": 52.379,
+      "longitude": 4.747,
+      "minutes": 263,
+      "ground": -3.85
+    },
+    {
+      "name": "Abbenes",
+      "latitude": 52.24,
+      "longitude": 4.595,
+      "minutes": 593,
+      "ground": -4.57
+    }
+  ],
+  "from": {
+    "surface": "public/terrain/polder-flood.png",
+    "fetched": "2026-10-07T14:44:08.243Z"
+  }
+}
