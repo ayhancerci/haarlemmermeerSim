@@ -6,7 +6,7 @@
   "fetched": "2026-10-09T02:18:31.000Z",
   "pages": 291,
   "bbox": "4.54978,52.23312,4.81629,52.39646",
-  "inside": "public/terrain/polder-dtm.json: the AHN grid's square",
+  "inside": "public/terrain/haarlemmermeer/polder-dtm.json: the AHN grid's square",
   "ground": "polderTerrain.ts groundAtRd: the ground the 2D map draws, m NAP at the ellipsoid's 0",
   "trees": 197124,
   "pointTypes": {

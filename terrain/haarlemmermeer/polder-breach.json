@@ -74,7 +74,7 @@
     }
   ],
   "from": {
-    "surface": "public/terrain/polder-flood.png",
+    "surface": "public/terrain/haarlemmermeer/polder-flood.png",
     "fetched": "2026-10-07T14:44:08.243Z"
   }
 }
